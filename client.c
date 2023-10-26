@@ -84,10 +84,9 @@ int do_query(int sockfd,MSG *msg)
 }
 int do_history(int sockfd,MSG *msg)
 {
-    printf("查询记录\n");
+    printf("查询\n");
     return 0;
 }
-
 
 int main(int argc, char const *argv[])
 {
